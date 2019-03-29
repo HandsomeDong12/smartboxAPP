@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a92909.graduationdesign">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Me"
+            android:label="Me">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HandsomeDong"
+            android:label="login">
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="Register">
+        </activity>
+        <activity
+            android:name=".Medicine"
+            android:label="Medicine">
+        </activity>
+        <activity
+            android:name=".Result"
+            android:label="Result">
+        </activity>
+        <activity
+            android:name=".Orders"
+            android:label="Orders">
+        </activity>
+        <activity
+            android:name=".History"
+            android:label="History">
+        </activity>
+
+    </application>
+</manifest>
